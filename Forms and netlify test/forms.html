@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="index.html"
+      name="beautyform"
+      method="post"
+      data-netlify="true"
+    >
+      <label for="name">First name</label>
+      <input type="text" name="name" id="name" placeholder="Lasse" />
+      <label for="age">Age</label>
+      <input
+        type="number"
+        type="number"
+        name="age"
+        id="age"
+        min="0"
+        max="130"
+        required="yes"
+        placeholder="45"
+      />
+      <button type="submit">Submit</button>
+
+      <label for="start"
+        >Today's date
+        <input type="date" id="start" />
+      </label>
+      <label for="vibecheck"
+        >Vibe check validator
+        <input type="checkbox" name="check" id="vibecheck" />
+      </label>
+      <label for="email"
+        >Submit email
+        <input type="email" id="email" placeholder="john.apple@gmail.com" />
+      </label>
+      <label for="text"
+        >Write your message here
+        <textarea name="message"></textarea>
+      </label>
+    </form>
+  </body>
+</html>
